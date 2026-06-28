@@ -1,0 +1,13 @@
+version: 1.0
+
+today: []
+
+thisWeek:
+  - Programming
+  - Programming Languages
+  - Abstraction
+  - Engineering Trade-offs
+
+overdue: []
+
+lastUpdated: 2026-06-29

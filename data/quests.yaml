@@ -1,0 +1,14 @@
+version: 1.0
+
+main:
+  - Become a Max-Level Software Engineer
+
+active:
+  - Mission 2 - Memory: How Computers Remember Things
+
+completed:
+  - Mission 1 - What is Programming?
+
+failed: []
+
+lastUpdated: 2026-06-29

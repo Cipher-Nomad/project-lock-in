@@ -1,0 +1,19 @@
+version: 1.0
+
+sessions: 1
+
+hoursLearned: 1
+
+missionsCompleted: 1
+
+bossBattlesCompleted: 0
+
+conceptsLearned: 4
+
+conceptsMastered: 0
+
+reviewsCompleted: 0
+
+projectsCompleted: 0
+
+lastUpdated: 2026-06-29

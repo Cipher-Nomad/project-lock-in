@@ -1,0 +1,38 @@
+version: 1.0
+
+player:
+  name: Akash S G
+
+created: 2026-06-29
+
+overall:
+  level: 0
+  exp: 25
+  nextLevel: 100
+
+rank: Initiate Engineer
+
+academy:
+  current: Programming Foundations
+
+module: 1
+
+mission: 2
+
+status:
+  activeQuest: "Mission 2 - Memory: How Computers Remember Things"
+  activeBossBattle: null
+
+focus:
+  - Programming Foundations
+
+streak:
+  current: 1
+  longest: 1
+
+statistics:
+  sessions: 1
+  missionsCompleted: 1
+  bossBattlesCompleted: 0
+
+lastUpdated: 2026-06-29

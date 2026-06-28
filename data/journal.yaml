@@ -1,0 +1,27 @@
+version: 1.0
+
+entries:
+  - date: 2026-06-29
+
+    title: Mission 1 Completed
+
+    academy: Programming Foundations
+
+    summary: |
+      Learned why programming exists rather than memorizing a definition.
+      Discovered that programming is about expressing solutions that machines
+      can execute. Understood that programming languages primarily exist for
+      humans and that engineering is fundamentally about making trade-offs.
+
+    mentalModels:
+      - Programming expresses solutions.
+
+      - Programming languages exist for humans.
+
+      - Abstraction hides unnecessary complexity.
+
+      - Repetition leads to abstraction.
+
+      - Every engineering decision is a trade-off.
+
+lastUpdated: 2026-06-29

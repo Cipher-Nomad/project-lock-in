@@ -1,0 +1,29 @@
+version: 1.0
+
+academies:
+  programming-foundations:
+    unlocked: true
+    currentModule: 1
+
+concepts:
+  programming:
+    status: Learned
+    mastery: 20
+    readiness: 100
+
+  programming-languages:
+    status: Learned
+    mastery: 20
+    readiness: 100
+
+  abstraction:
+    status: Introduced
+    mastery: 10
+    readiness: 100
+
+  tradeoffs:
+    status: Introduced
+    mastery: 10
+    readiness: 100
+
+lastUpdated: 2026-06-29
