@@ -1,0 +1,97 @@
+# =============================================================================
+
+# PROJECT LOCK IN
+
+# BOSS BATTLES
+
+# =============================================================================
+
+#
+
+# Boss Battles are comprehensive engineering challenges that combine
+
+# multiple skills into a single assessment.
+
+#
+
+# Passing a Boss Battle requires demonstrating understanding,
+
+# implementation, debugging, and communication.
+
+#
+
+# =============================================================================
+
+version: 1.0
+
+metadata:
+  lastUpdated: "2026-06-29"
+
+active: null
+
+available:
+  - id: PF-BOSS-001
+
+    academy: PF
+
+    title: Programming Foundations Final Boss
+
+    difficulty: Beginner
+
+    status: Locked
+
+    unlockRequirement:
+      completeAcademy: PF
+
+    description: >
+      Demonstrate a complete understanding of Programming
+      Foundations by solving engineering problems from
+      first principles.
+
+    objectives:
+      - Explain core concepts without memorization.
+
+      - Solve unseen problems.
+
+      - Debug unfamiliar code.
+
+      - Explain trade-offs.
+
+      - Teach concepts back to the mentor.
+
+    rewards:
+      exp: 500
+
+      unlocks:
+        - JS
+
+      achievement:
+        - ACH-PF-GRAD
+
+completed: []
+
+failed: []
+
+futureBosses:
+  - JS-BOSS-001
+
+  - TS-BOSS-001
+
+  - REACT-BOSS-001
+
+  - NEXTJS-BOSS-001
+
+  - NODE-BOSS-001
+
+  - DATABASES-BOSS-001
+
+  - NETWORKING-BOSS-001
+
+  - SYSTEMDESIGN-BOSS-001
+
+statistics:
+  completed: 0
+
+  failed: 0
+
+  successRate: 0

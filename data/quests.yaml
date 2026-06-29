@@ -1,14 +1,82 @@
+# =============================================================================
+# PROJECT LOCK IN
+# QUEST DATABASE
+# =============================================================================
+#
+# Tracks every quest undertaken by the player.
+#
+# This file is updated after every Save Game.
+#
+# =============================================================================
+
 version: 1.0
 
-main:
-  - Become a Max-Level Software Engineer
+metadata:
+  lastUpdated: "2026-06-29"
+
+mainQuest:
+  id: MAIN-001
+
+  title: Become a Max-Level Software Engineer
+
+  description: >
+    Master the complete field of Software Engineering from first
+    principles.
+
+  status: Active
 
 active:
-  - Mission 2 - Memory: How Computers Remember Things
+  academy:
+    id: PF
+
+    name: Programming Foundations
+
+  module:
+    id: PF-M1
+
+    name: The Nature of Programming
+
+  mission:
+    id: PF-M1-MSN2
+
+    title: Memory — How Computers Remember Things
+
+    objective: >
+      Discover why computers need memory and why variables were
+      invented.
+
+    started: Session-2
+
+sideQuests: []
+
+dailyQuests: []
 
 completed:
-  - Mission 1 - What is Programming?
+  - id: PF-M1-MSN1
+
+    title: What is Programming?
+
+    completedIn: Session-1
+
+    rewards:
+      exp: 25
+
+      concepts:
+        - PF-M1-S1-C1
+        - PF-M1-S1-C2
+        - PF-M1-S1-C3
+        - PF-M1-S1-C4
 
 failed: []
 
-lastUpdated: 2026-06-29
+bossBattles:
+  active: null
+
+  completed: []
+
+history:
+  totalCompleted: 1
+
+  totalFailed: 0
+
+  completionRate: 100

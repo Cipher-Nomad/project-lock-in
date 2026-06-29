@@ -1,1 +1,85 @@
-mistakes: []
+# =============================================================================
+
+# PROJECT LOCK IN
+
+# MISTAKES DATABASE
+
+# =============================================================================
+
+#
+
+# Every misconception is stored here.
+
+#
+
+# IMPORTANT
+
+# ---------
+
+# Mistakes are NOT failures.
+
+# They are evidence of learning.
+
+#
+
+# Once a mistake has been corrected consistently,
+
+# it is marked as RESOLVED rather than deleted.
+
+#
+
+# =============================================================================
+
+version: 1.0
+
+metadata:
+  lastUpdated: "2026-06-29"
+
+active:
+  - id: M-0001
+
+    conceptId: PF-M1-S1-C2
+
+    concept: Programming Languages
+
+    discoveredIn: S-0001
+
+    mistake: >
+      Initially believed programming languages exist primarily
+      to communicate with machines.
+
+    correction: >
+      Programming languages exist primarily for humans.
+      Compilers/interpreters communicate with machines.
+
+    severity: Medium
+
+    status: Active
+
+  - id: M-0002
+
+    conceptId: PF-M1-S1-C4
+
+    concept: Engineering Trade-offs
+
+    discoveredIn: S-0001
+
+    mistake: >
+      Initially viewed languages as simply having different syntax.
+
+    correction: >
+      Languages exist because they optimize for different
+      engineering trade-offs.
+
+    severity: Low
+
+    status: Active
+
+resolved: []
+
+statistics:
+  totalMistakes: 2
+
+  resolvedMistakes: 0
+
+  activeMistakes: 2

@@ -1,0 +1,112 @@
+# =============================================================================
+
+# PROJECT LOCK IN
+
+# PROJECT DATABASE
+
+# =============================================================================
+
+#
+
+# Tracks every engineering project built during Project Lock In.
+
+#
+
+# Only projects built AFTER starting Project Lock In should be added.
+
+#
+
+# =============================================================================
+
+version: 1.0
+
+metadata:
+  lastUpdated: "2026-06-29"
+
+activeProjects: []
+
+completedProjects: []
+
+futureProjects:
+  beginner:
+    - Build a Calculator
+
+    - Build a Todo App
+
+    - Build a CLI Tool
+
+  intermediate:
+    - Build a REST API
+
+    - Build a Chat Application
+
+    - Build a Cache
+
+  advanced:
+    - Build Project Lock In Dashboard
+
+    - Build a URL Shortener
+
+    - Build a Redis Clone
+
+    - Build a Git Clone
+
+    - Build a Database
+
+bossProjects:
+  - BP-001
+
+statistics:
+  activeProjects: 0
+
+  completedProjects: 0
+
+  abandonedProjects: 0
+
+mentorGuidelines:
+  minimumRequirements:
+    - Must solve a real engineering problem.
+
+    - Must include documentation.
+
+    - Must use Git.
+
+    - Must include a retrospective.
+
+    - Must be reviewed after completion.
+
+projectTemplate:
+  id:
+
+  name:
+
+  academy:
+
+  difficulty:
+
+  status:
+
+  started:
+
+  completed:
+
+  technologies: []
+
+  conceptsUsed: []
+
+  skillsStrengthened: []
+
+  lessonsLearned: []
+
+  improvements: []
+
+  mentorEvaluation:
+    engineering: 0
+
+    codeQuality: 0
+
+    architecture: 0
+
+    testing: 0
+
+    communication: 0

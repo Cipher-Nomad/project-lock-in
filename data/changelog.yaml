@@ -1,0 +1,53 @@
+# =============================================================================
+
+# PROJECT LOCK IN
+
+# CHANGELOG
+
+# =============================================================================
+
+#
+
+# Permanent history of Project Lock In.
+
+#
+
+# Never delete entries.
+
+#
+
+# =============================================================================
+
+version: 1.0
+
+metadata:
+  lastUpdated: "2026-06-29"
+
+entries:
+  - version: 1.0
+
+    date: "2026-06-29"
+
+    title: Project Lock In Begins
+
+    description:
+      - Repository created.
+
+      - Initial game architecture frozen.
+
+      - Save Game system established.
+
+      - Programming Foundations unlocked.
+
+      - Mission 1 completed.
+
+      - First mental models discovered.
+
+      - First journal entry created.
+
+      - Player officially begins engineering journey.
+
+history:
+  totalVersions: 1
+
+  latestVersion: 1.0

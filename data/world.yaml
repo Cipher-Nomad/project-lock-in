@@ -1,0 +1,167 @@
+# =============================================================================
+
+# PROJECT LOCK IN
+
+# WORLD DATABASE
+
+# =============================================================================
+
+#
+
+# Represents the entire game world.
+
+#
+
+# This file rarely changes.
+
+#
+
+# =============================================================================
+
+version: 1.0
+
+metadata:
+  lastUpdated: "2026-06-29"
+
+playerRank:
+  current:
+    id: RANK-000
+
+    title: Initiate Engineer
+
+ranks:
+  - id: RANK-000
+
+    title: Initiate Engineer
+
+    unlockLevel: 0
+
+  - id: RANK-001
+
+    title: Apprentice Engineer
+
+    unlockLevel: 5
+
+  - id: RANK-002
+
+    title: Junior Engineer
+
+    unlockLevel: 10
+
+  - id: RANK-003
+
+    title: Mid-Level Engineer
+
+    unlockLevel: 20
+
+  - id: RANK-004
+
+    title: Senior Engineer
+
+    unlockLevel: 35
+
+  - id: RANK-005
+
+    title: Staff Engineer
+
+    unlockLevel: 50
+
+  - id: RANK-006
+
+    title: Principal Engineer
+
+    unlockLevel: 75
+
+  - id: RANK-007
+
+    title: Max-Level Engineer
+
+    unlockLevel: 100
+
+academies:
+  unlocked:
+    - PF
+
+  locked:
+    - JS
+
+    - TS
+
+    - BROWSER
+
+    - REACT
+
+    - NEXTJS
+
+    - NODE
+
+    - DATABASES
+
+    - NETWORKING
+
+    - OPERATING_SYSTEMS
+
+    - DSA
+
+    - SYSTEM_DESIGN
+
+    - DEVOPS
+
+    - CLOUD
+
+    - SECURITY
+
+    - AI_ENGINEERING
+
+worldRules:
+  - Complete one academy before unlocking the next.
+
+  - Boss Battles unlock after academy completion.
+
+  - Projects can unlock achievements.
+
+  - Reviews never stop.
+
+  - Readiness decays.
+
+  - Mastery rarely decreases.
+
+difficulty:
+  current: Normal
+
+futureContent:
+  plannedAcademies:
+    - JavaScript
+
+    - TypeScript
+
+    - Browser Internals
+
+    - React
+
+    - Next.js
+
+    - Backend Engineering
+
+    - Databases
+
+    - Networking
+
+    - Operating Systems
+
+    - Algorithms
+
+    - System Design
+
+    - DevOps
+
+    - Cloud
+
+    - Security
+
+    - AI Engineering
+
+story:
+  chapter: 1
+
+  title: Programming Foundations

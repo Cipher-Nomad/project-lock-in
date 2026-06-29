@@ -1,38 +1,220 @@
+# =============================================================================
+# PLAYER SAVE FILE
+# =============================================================================
+#
+# This file represents the player's current save.
+#
+# IMPORTANT
+# ---------
+# - This file contains ONLY player-specific data.
+# - It should NEVER contain curriculum or lesson definitions.
+# - All progression is earned through Project Lock In.
+#
+# Updated only during:
+#   • Save Game
+#
+# =============================================================================
+
 version: 1.0
 
+metadata:
+  saveVersion: 1
+  gameVersion: 1.0
+  created: "2026-06-29"
+  lastUpdated: "2026-06-29"
+
 player:
-  name: Akash S G
+  profile:
+    name: "Akash S G"
 
-created: 2026-06-29
+  character:
+    class: "Software Engineer"
 
-overall:
-  level: 0
-  exp: 25
-  nextLevel: 100
+    rank:
+      id: RANK-000
+      title: "Initiate Engineer"
 
-rank: Initiate Engineer
+    title: "The Beginner"
 
-academy:
-  current: Programming Foundations
+  overall:
+    level: 0
 
-module: 1
+    experience:
+      current: 25
 
-mission: 2
+      requiredForNextLevel: 100
 
-status:
-  activeQuest: "Mission 2 - Memory: How Computers Remember Things"
-  activeBossBattle: null
+      totalEarned: 25
 
-focus:
-  - Programming Foundations
+  academy:
+    current:
+      id: PF
+
+      name: "Programming Foundations"
+
+  module:
+    current:
+      id: PF-M1
+
+      name: "The Nature of Programming"
+
+  mission:
+    current:
+      id: PF-M1-MSN2
+
+      name: "Memory: How Computers Remember Things"
+
+progress:
+  academiesCompleted: []
+
+  modulesCompleted: []
+
+  missionsCompleted:
+    - PF-M1-MSN1
+
+  conceptsDiscovered:
+    - PF-M1-S1-C1
+    - PF-M1-S1-C2
+    - PF-M1-S1-C3
+    - PF-M1-S1-C4
+
+  conceptsUnderstood: []
+
+  conceptsApplied: []
+
+  conceptsMastered: []
+
+reviews:
+  dueToday: []
+
+  upcoming: []
+
+  overdue: []
+
+quests:
+  active:
+    - PF-M1-MSN2
+
+  completed:
+    - PF-M1-MSN1
+
+  failed: []
+
+bossBattles:
+  active: null
+
+  completed: []
+
+projects:
+  active: []
+
+  completed: []
+
+achievements:
+  unlocked: []
+
+statistics:
+  totalSessions: 1
+
+  totalStudyHours: 1
+
+  totalLessonsCompleted: 1
+
+  totalMissionsCompleted: 1
+
+  totalReviewsCompleted: 0
+
+  totalBossBattlesCompleted: 0
+
+  totalProjectsCompleted: 0
+
+  totalConceptsDiscovered: 4
+
+  totalConceptsMastered: 0
 
 streak:
   current: 1
+
   longest: 1
 
-statistics:
-  sessions: 1
-  missionsCompleted: 1
-  bossBattlesCompleted: 0
+learningProfile:
+  preferredLearningStyle:
+    - First Principles
 
-lastUpdated: 2026-06-29
+    - Socratic Questioning
+
+    - Building Projects
+
+    - Visual Mental Models
+
+  strengths:
+    - Curious
+
+    - Learns by reasoning
+
+    - Comfortable admitting uncertainty
+
+  weaknesses:
+    - Weak recall of fundamentals
+
+    - Gaps in mental models
+
+    - Tends to implement before fully understanding
+
+mentorAssessment:
+  overall:
+    understanding: 3
+
+    reasoning: 8
+
+    communication: 7
+
+    application: 6
+
+  observations:
+    - Strong curiosity.
+
+    - Enjoys understanding "why" before "how".
+
+    - Naturally derives abstractions when guided.
+
+    - Needs stronger foundational mental models.
+
+    - Existing frontend experience acknowledged but intentionally restarting from first principles.
+
+mentalModelsUnlocked:
+  - MM-001
+  - MM-002
+  - MM-003
+  - MM-004
+  - MM-005
+
+inventory:
+  certifications: []
+
+  artifacts: []
+
+  trophies: []
+
+future:
+  nextMission:
+    id: PF-M1-MSN2
+
+    name: "Memory: How Computers Remember Things"
+
+  nextBossBattle:
+    id: PF-BOSS-001
+
+    name: "Programming Foundations"
+
+notes: |
+
+  This save marks the official beginning of Project Lock In.
+
+  The player has chosen to restart software engineering
+  education from first principles despite already having
+  professional frontend experience.
+
+  All future progression inside this repository must be
+  earned through demonstrated understanding rather than
+  prior experience.

@@ -1,0 +1,279 @@
+# =============================================================================
+# PROJECT LOCK IN
+# CURRICULUM DATABASE
+# =============================================================================
+#
+# This file defines WHAT exists in the game.
+#
+# IMPORTANT
+# ---------
+# - Never store player progress here.
+# - Never store EXP here.
+# - Never store mastery here.
+#
+# Think of this as the game's encyclopedia.
+#
+# Player progress belongs ONLY inside player.yaml.
+#
+# =============================================================================
+
+version: 1.0
+
+metadata:
+  lastUpdated: "2026-06-29"
+
+academies:
+  PF:
+    id: PF
+
+    name: Programming Foundations
+
+    description: >
+      Learn the universal principles behind programming before
+      studying any specific language or framework.
+
+    unlocked: true
+
+    prerequisite: null
+
+    completionReward:
+      academyUnlocks:
+        - JS
+
+    modules:
+      # ==========================================================
+      # MODULE 1
+      # ==========================================================
+
+      - id: PF-M1
+
+        name: The Nature of Programming
+
+        description: >
+          Understand why programming exists before learning syntax.
+
+        skills:
+          - id: PF-M1-S1
+
+            name: Programming Fundamentals
+
+            concepts:
+              - id: PF-M1-S1-C1
+
+                name: Programming
+
+                description: >
+                  Programming is the process of expressing a solution
+                  in a form that a machine can execute.
+
+                mission: PF-M1-MSN1
+
+                prerequisites: []
+
+                unlocks:
+                  - PF-M1-S1-C2
+
+                mentalModels:
+                  - MM-001
+
+              - id: PF-M1-S1-C2
+
+                name: Programming Languages
+
+                description: >
+                  Programming languages exist primarily for humans,
+                  allowing us to express complex ideas.
+
+                mission: PF-M1-MSN1
+
+                prerequisites:
+                  - PF-M1-S1-C1
+
+                unlocks:
+                  - PF-M1-S1-C3
+
+                mentalModels:
+                  - MM-002
+
+              - id: PF-M1-S1-C3
+
+                name: Abstraction
+
+                description: >
+                  Complexity is hidden behind simpler interfaces.
+
+                mission: PF-M1-MSN1
+
+                prerequisites:
+                  - PF-M1-S1-C2
+
+                unlocks:
+                  - PF-M1-S1-C4
+
+                mentalModels:
+                  - MM-003
+
+              - id: PF-M1-S1-C4
+
+                name: Engineering Trade-offs
+
+                description: >
+                  Every engineering decision optimizes for some goals
+                  while sacrificing others.
+
+                mission: PF-M1-MSN1
+
+                prerequisites:
+                  - PF-M1-S1-C3
+
+                unlocks: []
+
+                mentalModels:
+                  - MM-004
+                  - MM-005
+
+        missions:
+          - id: PF-M1-MSN1
+
+            title: What is Programming?
+
+            objective: >
+              Discover why programming exists and understand the
+              purpose of programming languages.
+
+            reward:
+              exp: 25
+
+            concepts:
+              - PF-M1-S1-C1
+              - PF-M1-S1-C2
+              - PF-M1-S1-C3
+              - PF-M1-S1-C4
+
+          - id: PF-M1-MSN2
+
+            title: Memory — How Computers Remember Things
+
+            objective: >
+              Understand why memory exists and why variables were
+              invented.
+
+            reward:
+              exp: 30
+
+      # ==========================================================
+      # MODULE 2
+      # ==========================================================
+
+      - id: PF-M2
+
+        name: Variables and Memory
+
+        description: >
+          Learn how computers store and retrieve information.
+
+      # ==========================================================
+      # MODULE 3
+      # ==========================================================
+
+      - id: PF-M3
+
+        name: Decisions and Control Flow
+
+      # ==========================================================
+      # MODULE 4
+      # ==========================================================
+
+      - id: PF-M4
+
+        name: Functions
+
+      # ==========================================================
+      # MODULE 5
+      # ==========================================================
+
+      - id: PF-M5
+
+        name: Program Execution
+
+      # ==========================================================
+      # MODULE 6
+      # ==========================================================
+
+      - id: PF-M6
+
+        name: Scope
+
+      # ==========================================================
+      # MODULE 7
+      # ==========================================================
+
+      - id: PF-M7
+
+        name: Objects
+
+      # ==========================================================
+      # MODULE 8
+      # ==========================================================
+
+      - id: PF-M8
+
+        name: Asynchronous Programming
+
+      # ==========================================================
+      # MODULE 9
+      # ==========================================================
+
+      - id: PF-M9
+
+        name: Errors and Debugging
+
+      # ==========================================================
+      # MODULE 10
+      # ==========================================================
+
+      - id: PF-M10
+
+        name: Modules and Code Organization
+
+      # ==========================================================
+      # MODULE 11
+      # ==========================================================
+
+      - id: PF-M11
+
+        name: Design Principles
+
+      # ==========================================================
+      # MODULE 12
+      # ==========================================================
+
+      - id: PF-M12
+
+        name: Engineering Mindset
+
+bossBattles:
+  - id: PF-BOSS-001
+
+    academy: PF
+
+    name: Programming Foundations Final Boss
+
+    unlockRequirement:
+      completeAcademy: PF
+
+mentalModels:
+  MM-001:
+    name: Programming Expresses Solutions
+
+  MM-002:
+    name: Programming Languages Exist For Humans
+
+  MM-003:
+    name: Abstraction Hides Complexity
+
+  MM-004:
+    name: Repetition Leads To Abstraction
+
+  MM-005:
+    name: Engineering Is About Trade-offs

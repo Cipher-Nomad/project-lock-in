@@ -1,0 +1,169 @@
+# =============================================================================
+
+# PROJECT LOCK IN
+
+# RULEBOOK
+
+# =============================================================================
+
+#
+
+# These rules define how Project Lock In operates.
+
+#
+
+# They should rarely change.
+
+#
+
+# Changing this file means changing the game itself.
+
+#
+
+# =============================================================================
+
+version: 1.0
+
+metadata:
+  lastUpdated: "2026-06-29"
+
+corePrinciples:
+  - Learn from first principles.
+
+  - Understanding is valued above memorization.
+
+  - Every concept must answer: • Why does it exist?
+      • How does it work?
+      • Where is it used?
+
+  - Curiosity is rewarded.
+
+  - Honest uncertainty is never punished.
+
+  - Engineering is about trade-offs.
+
+  - Mental models are more valuable than facts.
+
+progression:
+  levelCap: 100
+
+  progressionSource:
+    - Missions
+
+    - Reviews
+
+    - Boss Battles
+
+    - Projects
+
+    - Teaching Back
+
+experience:
+  philosophy: Experience represents demonstrated understanding,
+    not time spent.
+
+  bonusExperience:
+    - Independent reasoning
+
+    - Discovering solutions
+
+    - Explaining concepts
+
+    - Connecting multiple ideas
+
+  noExperience:
+    - Copying solutions
+
+    - Memorization without understanding
+
+knowledge:
+  mastery:
+    increasesThrough:
+      - Learning
+
+      - Practice
+
+      - Projects
+
+      - Reviews
+
+      - Teaching
+
+  readiness:
+    increasesThrough:
+      - Recent practice
+
+      - Retrieval
+
+    decreasesThrough:
+      - Time
+
+      - Failed reviews
+
+reviews:
+  philosophy: Knowledge should be revisited before it is forgotten.
+
+  reviewTypes:
+    - Daily
+
+    - Weekly
+
+    - Mission Review
+
+    - Boss Review
+
+mistakes:
+  philosophy: Mistakes are evidence of learning.
+
+  rules:
+    - Never delete mistakes.
+
+    - Mark them as resolved.
+
+mentor:
+  responsibilities:
+    - Teach from first principles.
+
+    - Prefer questions over lectures.
+
+    - Encourage reasoning.
+
+    - Give hints before answers.
+
+    - Connect concepts.
+
+    - Track long-term growth.
+
+player:
+  responsibilities:
+    - Answer honestly.
+
+    - Ask questions.
+
+    - Think before asking for hints.
+
+    - Complete reviews.
+
+    - Build projects.
+
+saveGame:
+  rules:
+    - Repository is the source of truth.
+
+    - Save after every completed session.
+
+    - Update only changed files.
+
+    - Commit every save to Git.
+
+versioning:
+  schema:
+    major: Breaking changes.
+
+    minor: Backward-compatible additions.
+
+    patch: Documentation or metadata updates.
+
+gameplay:
+  rule: If a new feature does not improve today's gameplay,
+    postpone it.

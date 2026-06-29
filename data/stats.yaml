@@ -1,19 +1,106 @@
+# =============================================================================
+
+# PROJECT LOCK IN
+
+# PLAYER STATISTICS
+
+# =============================================================================
+
+#
+
+# Numerical progression.
+
+#
+
+# Everything in this file should be automatically
+
+# derivable from gameplay.
+
+#
+
+# =============================================================================
+
 version: 1.0
 
-sessions: 1
+metadata:
+  lastUpdated: "2026-06-29"
 
-hoursLearned: 1
+sessions:
+  total: 1
 
-missionsCompleted: 1
+  completed:
+    - S-0001
 
-bossBattlesCompleted: 0
+time:
+  estimatedStudyHours: 1
 
-conceptsLearned: 4
+experience:
+  overall:
+    total: 25
 
-conceptsMastered: 0
+  academies:
+    Programming Foundations: 25
 
-reviewsCompleted: 0
+missions:
+  completed: 1
 
-projectsCompleted: 0
+  failed: 0
 
-lastUpdated: 2026-06-29
+bossBattles:
+  completed: 0
+
+  failed: 0
+
+concepts:
+  discovered: 4
+
+  learning: 4
+
+  practicing: 0
+
+  understood: 0
+
+  applied: 0
+
+  mastered: 0
+
+mentalModels:
+  unlocked: 5
+
+reviews:
+  scheduled: 4
+
+  completed: 0
+
+mistakes:
+  active: 2
+
+  resolved: 0
+
+projects:
+  completed: 0
+
+achievements:
+  unlocked: 0
+
+streak:
+  current: 1
+
+  longest: 1
+
+analytics:
+  strongestArea:
+    - Reasoning
+
+  weakestArea:
+    - Knowledge Recall
+
+  currentFocus:
+    - Programming Foundations
+
+milestones:
+  - Started Project Lock In
+
+  - Completed first mission
+
+  - Earned first EXP

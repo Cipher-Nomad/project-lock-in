@@ -1,27 +1,101 @@
+# =============================================================================
+
+# PROJECT LOCK IN
+
+# ENGINEERING JOURNAL
+
+# =============================================================================
+
+#
+
+# This is NOT a diary.
+
+#
+
+# It records engineering growth.
+
+#
+
+# Every completed mission creates one journal entry.
+
+#
+
+# =============================================================================
+
 version: 1.0
 
-entries:
-  - date: 2026-06-29
+metadata:
+  lastUpdated: "2026-06-29"
 
-    title: Mission 1 Completed
+entries:
+  - session: S-0001
 
     academy: Programming Foundations
 
-    summary: |
-      Learned why programming exists rather than memorizing a definition.
-      Discovered that programming is about expressing solutions that machines
-      can execute. Understood that programming languages primarily exist for
-      humans and that engineering is fundamentally about making trade-offs.
+    module: PF-M1
 
-    mentalModels:
-      - Programming expresses solutions.
+    mission: PF-M1-MSN1
 
-      - Programming languages exist for humans.
+    title: What is Programming?
 
-      - Abstraction hides unnecessary complexity.
+    completed: true
 
-      - Repetition leads to abstraction.
+    summary: >
+      Learned why programming exists before studying syntax.
+      Discovered that programming is fundamentally about
+      expressing solutions rather than writing code.
 
-      - Every engineering decision is a trade-off.
+    biggestRealization: >
+      Programming languages were invented for humans,
+      not computers.
 
-lastUpdated: 2026-06-29
+    mentalModelsLearned:
+      - MM-001
+      - MM-002
+      - MM-003
+      - MM-004
+      - MM-005
+
+    conceptsLearned:
+      - Programming
+
+      - Programming Languages
+
+      - Abstraction
+
+      - Engineering Trade-offs
+
+    misconceptionsCorrected:
+      - Programming languages primarily communicate with machines.
+
+    questionsAsked:
+      - Why does programming exist?
+
+      - Why do programming languages exist?
+
+      - Why are there many programming languages?
+
+    evidenceOfUnderstanding:
+      - Independently derived the idea of translators.
+
+      - Independently derived reusable commands (functions).
+
+      - Recognized abstraction without being taught.
+
+      - Explained why multiple programming languages exist.
+
+    mentorFeedback: >
+      Excellent reasoning.
+      Strong curiosity.
+      Learns best through guided discovery rather than
+      memorization.
+
+    nextMission:
+      id: PF-M1-MSN2
+
+      title: Memory — How Computers Remember Things
+
+statistics:
+  totalEntries: 1
+
+  completedMissionsLogged: 1

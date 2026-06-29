@@ -1,0 +1,154 @@
+# =============================================================================
+
+# PROJECT LOCK IN
+
+# MENTOR NOTES
+
+# =============================================================================
+
+#
+
+# PRIVATE MENTOR OBSERVATIONS
+
+#
+
+# This file contains long-term observations about the player's
+
+# engineering growth.
+
+#
+
+# These notes are descriptive, not judgmental.
+
+#
+
+# =============================================================================
+
+version: 1.0
+
+metadata:
+  lastUpdated: "2026-06-29"
+
+player:
+  name: Akash S G
+
+overallAssessment:
+  currentStage: >
+    Rebuilding software engineering knowledge from first
+    principles.
+
+  currentPriority:
+    - Programming Foundations
+
+    - Mental Models
+
+    - Conceptual Understanding
+
+learningStyle:
+  primary:
+    - First Principles
+
+    - Socratic Questioning
+
+    - Visual Mental Models
+
+    - Learning by Derivation
+
+  secondary:
+    - Building Projects
+
+    - Real-world Analogies
+
+strengths:
+  curiosity:
+    level: High
+
+    notes: >
+      Naturally asks "why" rather than accepting
+      definitions.
+
+  reasoning:
+    level: High
+
+    notes: >
+      Often derives concepts independently once the
+      underlying problem is understood.
+
+  honesty:
+    level: High
+
+    notes: >
+      Comfortable saying "I don't know."
+
+      Does not fabricate knowledge.
+
+  persistence:
+    level: High
+
+    notes: >
+      Wants to deeply understand topics rather than
+      memorize them.
+
+weaknesses:
+  recall:
+    level: Low
+
+    notes: >
+      Existing knowledge is difficult to recall
+      without prompting.
+
+  fundamentals:
+    level: Medium
+
+    notes: >
+      Professional experience exceeds conceptual
+      understanding.
+
+  implementationBias:
+    level: Medium
+
+    notes: >
+      Has a tendency to build before completely
+      understanding underlying mechanisms.
+
+recurringPatterns:
+  positive:
+    - Derives abstractions naturally.
+
+    - Enjoys solving the underlying problem.
+
+    - Learns quickly after building a mental model.
+
+  negative:
+    - Initially thinks in framework terms instead of
+      computer science concepts.
+
+    - Occasionally focuses on implementation before
+      principles.
+
+mentorStrategy:
+  teachingMethod:
+    - Never start with syntax.
+
+    - Begin with the problem.
+
+    - Allow independent discovery.
+
+    - Introduce terminology only after understanding.
+
+    - Connect every new concept to previous ones.
+
+currentRecommendations:
+  - Strengthen Programming Foundations.
+
+  - Build durable mental models.
+
+  - Focus on understanding over memorization.
+
+notes:
+  - Project Lock In officially started from scratch.
+
+  - Previous frontend experience acknowledged but not
+    used for progression.
+
+  - Student shows strong long-term potential.

@@ -1,13 +1,80 @@
+# =============================================================================
+# PROJECT LOCK IN
+# REVIEW QUEUE
+# =============================================================================
+#
+# Spaced repetition system.
+#
+# Every concept learned eventually appears here.
+#
+# Concepts are removed only after reaching Mastered state.
+#
+# =============================================================================
+
 version: 1.0
+
+metadata:
+  lastUpdated: "2026-06-29"
 
 today: []
 
+tomorrow: []
+
 thisWeek:
-  - Programming
-  - Programming Languages
-  - Abstraction
-  - Engineering Trade-offs
+  - conceptId: PF-M1-S1-C1
+
+    concept: Programming
+
+    priority: High
+
+    reason: Recently Learned
+
+  - conceptId: PF-M1-S1-C2
+
+    concept: Programming Languages
+
+    priority: High
+
+    reason: Recently Learned
+
+  - conceptId: PF-M1-S1-C3
+
+    concept: Abstraction
+
+    priority: Medium
+
+    reason: Mental Model Reinforcement
+
+  - conceptId: PF-M1-S1-C4
+
+    concept: Engineering Trade-offs
+
+    priority: Medium
+
+    reason: Mental Model Reinforcement
+
+nextWeek: []
 
 overdue: []
 
-lastUpdated: 2026-06-29
+completedReviews: []
+
+reviewRules:
+  newlyLearned:
+    firstReview: 7 days
+
+  answeredCorrectly:
+    increaseInterval: true
+
+  answeredIncorrectly:
+    resetInterval: true
+
+  masteredConcept:
+    minimumReviews: 5
+
+statistics:
+  reviewsCompleted: 0
+
+  conceptsScheduled: 4
+
+  conceptsMastered: 0

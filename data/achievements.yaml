@@ -1,0 +1,166 @@
+# =============================================================================
+
+# PROJECT LOCK IN
+
+# ACHIEVEMENTS
+
+# =============================================================================
+
+#
+
+# Achievements celebrate important milestones.
+
+#
+
+# They are never removed.
+
+#
+
+# =============================================================================
+
+version: 1.0
+
+metadata:
+  lastUpdated: "2026-06-29"
+
+unlocked: []
+
+locked:
+  # ---------------------------------------------------------
+  # Story
+  # ---------------------------------------------------------
+
+  - id: ACH-START
+
+    title: The Journey Begins
+
+    description: Complete your first mission.
+
+  - id: ACH-PF-GRAD
+
+    title: Programming Foundations Graduate
+
+    description: Complete the Programming Foundations Academy.
+
+  # ---------------------------------------------------------
+  # Learning
+  # ---------------------------------------------------------
+
+  - id: ACH-FIRST-MM
+
+    title: Mental Model Collector
+
+    description: Unlock your first Mental Model.
+
+  - id: ACH-TEACHER
+
+    title: Explain It Back
+
+    description: Successfully teach a concept back.
+
+  - id: ACH-NO-HINT
+
+    title: Independent Thinker
+
+    description: Solve a challenge without hints.
+
+  # ---------------------------------------------------------
+  # Reviews
+  # ---------------------------------------------------------
+
+  - id: ACH-REVIEW-10
+
+    title: Consistency I
+
+    description: Complete 10 reviews.
+
+  - id: ACH-REVIEW-50
+
+    title: Consistency II
+
+    description: Complete 50 reviews.
+
+  - id: ACH-REVIEW-100
+
+    title: Knowledge Keeper
+
+    description: Complete 100 reviews.
+
+  # ---------------------------------------------------------
+  # Boss Battles
+  # ---------------------------------------------------------
+
+  - id: ACH-BOSS-1
+
+    title: Boss Slayer
+
+    description: Defeat your first Boss Battle.
+
+  - id: ACH-BOSS-10
+
+    title: Veteran Engineer
+
+    description: Defeat ten Boss Battles.
+
+  # ---------------------------------------------------------
+  # Projects
+  # ---------------------------------------------------------
+
+  - id: ACH-PROJECT-1
+
+    title: Builder
+
+    description: Complete your first engineering project.
+
+  - id: ACH-PROJECT-10
+
+    title: Creator
+
+    description: Complete ten engineering projects.
+
+  # ---------------------------------------------------------
+  # Milestones
+  # ---------------------------------------------------------
+
+  - id: ACH-LVL-10
+
+    title: Junior Engineer
+
+    description: Reach Level 10.
+
+  - id: ACH-LVL-20
+
+    title: Mid-Level Engineer
+
+    description: Reach Level 20.
+
+  - id: ACH-LVL-35
+
+    title: Senior Engineer
+
+    description: Reach Level 35.
+
+  - id: ACH-LVL-50
+
+    title: Staff Engineer
+
+    description: Reach Level 50.
+
+  - id: ACH-LVL-75
+
+    title: Principal Engineer
+
+    description: Reach Level 75.
+
+  - id: ACH-LVL-100
+
+    title: Max-Level Engineer
+
+    description: Reach Level 100.
+
+statistics:
+  unlocked: 0
+
+  total: 16
+
+  completion: 0
