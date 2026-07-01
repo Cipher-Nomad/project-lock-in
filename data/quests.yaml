@@ -32,20 +32,20 @@ active:
     name: Programming Foundations
 
   module:
-    id: PF-M1
+    id: PF-M2
 
-    name: The Nature of Programming
+    name: Variables and Memory
 
   mission:
-    id: PF-M1-MSN2
+    id: PF-M2-MSN1
 
-    title: Memory — How Computers Remember Things
+    title: Variables — Giving Memory a Name
 
     objective: >
-      Discover why computers need memory and why variables were
-      invented.
+    Discover why variables exist and how they allow
+    humans to refer to values stored in memory.
 
-    started: Session-2
+    started: S-0003
 
 sideQuests: []
 
@@ -67,6 +67,20 @@ completed:
         - PF-M1-S1-C3
         - PF-M1-S1-C4
 
+  - id: PF-M1-MSN2
+
+    title: Memory — How Computers Remember Things
+
+    completedIn: S-0002
+
+    rewards:
+      exp: 85
+
+      concepts:
+        - PF-M2-S1-C1
+        - PF-M2-S1-C2
+        - PF-M2-S1-C3
+        - PF-M2-S1-C4
 failed: []
 
 bossBattles:
@@ -75,7 +89,7 @@ bossBattles:
   completed: []
 
 history:
-  totalCompleted: 1
+  totalCompleted: 2
 
   totalFailed: 0
 

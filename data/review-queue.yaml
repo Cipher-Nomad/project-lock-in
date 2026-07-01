@@ -53,6 +53,38 @@ thisWeek:
 
     reason: Mental Model Reinforcement
 
+  - conceptId: PF-M2-S1-C1
+
+    concept: Memory
+
+    priority: High
+
+    reason: Recently Learned
+
+  - conceptId: PF-M2-S1-C2
+
+    concept: Variables
+
+    priority: High
+
+    reason: Recently Learned
+
+  - conceptId: PF-M2-S1-C3
+
+    concept: Assignment
+
+    priority: Medium
+
+    reason: Reinforcement
+
+  - conceptId: PF-M2-S1-C4
+
+    concept: CPU vs Memory
+
+    priority: Medium
+
+    reason: Mental Model Reinforcement
+
 nextWeek: []
 
 overdue: []

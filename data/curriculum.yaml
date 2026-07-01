@@ -264,16 +264,66 @@ bossBattles:
 
 mentalModels:
   MM-001:
-    name: Programming Expresses Solutions
+    title: Programming Expresses Solutions
+
+    statement: >
+      Programming is the process of expressing a solution in a
+      form that a machine can execute.
 
   MM-002:
-    name: Programming Languages Exist For Humans
+    title: Programming Languages Exist For Humans
+
+    statement: >
+      Programming languages exist primarily for humans, allowing
+      us to express complex ideas rather than for machines, which
+      only need instructions in their own native form.
 
   MM-003:
-    name: Abstraction Hides Complexity
+    title: Abstraction Hides Complexity
+
+    statement: >
+      Complexity is hidden behind simpler interfaces, allowing
+      people to work with a system without needing to understand
+      everything happening underneath it.
 
   MM-004:
-    name: Repetition Leads To Abstraction
+    title: Repetition Leads To Abstraction
+
+    statement: >
+      When the same pattern shows up again and again, it becomes
+      worth wrapping in a reusable abstraction rather than
+      repeating it by hand each time.
 
   MM-005:
-    name: Engineering Is About Trade-offs
+    title: Engineering Is About Trade-offs
+
+    statement: >
+      Every engineering decision optimizes for some goals while
+      sacrificing others.
+
+  MM-006:
+    title: CPU Computes, Memory Stores
+
+    statement: >
+      The CPU performs computations while memory stores data.
+
+  MM-007:
+    title: Variables Are Human-Friendly Names
+
+    statement: >
+      Variables allow humans to refer to stored values without
+      remembering memory addresses.
+
+  MM-008:
+    title: Code Is Written Once, Read Many Times
+
+    statement: >
+      Code should be optimized for human understanding because
+      it is read far more often than it is written.
+
+  MM-009:
+    title: Assignment Changes What A Variable Refers To
+
+    statement: >
+      Assignment updates the relationship between a variable
+      and its current value.

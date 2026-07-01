@@ -26,23 +26,24 @@ metadata:
   lastUpdated: "2026-06-29"
 
 sessions:
-  total: 1
+  total: 2
 
   completed:
     - S-0001
+    - S-0002
 
 time:
-  estimatedStudyHours: 1
+  estimatedStudyHours: 2
 
 experience:
   overall:
-    total: 25
+    total: 110
 
   academies:
-    Programming Foundations: 25
+    Programming Foundations: 110
 
 missions:
-  completed: 1
+  completed: 2
 
   failed: 0
 
@@ -52,9 +53,9 @@ bossBattles:
   failed: 0
 
 concepts:
-  discovered: 4
+  discovered: 8
 
-  learning: 4
+  learning: 8
 
   practicing: 0
 
@@ -65,10 +66,10 @@ concepts:
   mastered: 0
 
 mentalModels:
-  unlocked: 5
+  unlocked: 9
 
 reviews:
-  scheduled: 4
+  scheduled: 8
 
   completed: 0
 
@@ -84,9 +85,9 @@ achievements:
   unlocked: 0
 
 streak:
-  current: 1
+  current: 2
 
-  longest: 1
+  longest: 2
 
 analytics:
   strongestArea:
@@ -104,3 +105,7 @@ milestones:
   - Completed first mission
 
   - Earned first EXP
+
+  - Reached Level 1
+
+  - Completed second mission

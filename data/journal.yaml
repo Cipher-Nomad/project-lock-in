@@ -95,7 +95,78 @@ entries:
 
       title: Memory — How Computers Remember Things
 
-statistics:
-  totalEntries: 1
+  - session: S-0002
 
-  completedMissionsLogged: 1
+    academy: Programming Foundations
+
+    module: PF-M2
+
+    mission: PF-M1-MSN2
+
+    title: Memory — How Computers Remember Things
+
+    completed: true
+
+    summary: >
+      Discovered why computers require memory to retain
+      information after computation. Derived the purpose
+      of variables as human-friendly names for values
+      stored in memory and understood assignment as
+      changing what a variable refers to.
+
+    biggestRealization: >
+      The CPU computes while memory stores. Variables
+      exist because humans need meaningful names for
+      memory locations rather than raw addresses.
+
+    mentalModelsLearned:
+      - MM-006
+      - MM-007
+      - MM-008
+      - MM-009
+
+    conceptsLearned:
+      - Memory
+      - Variables
+      - Assignment
+      - CPU vs Memory
+
+    misconceptionsCorrected:
+      - Thinking the CPU remembers previous calculations.
+
+    questionsAsked:
+      - Where does a computed value go?
+
+      - Why do variables exist?
+
+      - Why not use memory addresses directly?
+
+      - What happens during assignment?
+
+    evidenceOfUnderstanding:
+      - Correctly identified memory as the storage
+        component.
+
+      - Independently derived the need for variable
+        names.
+
+      - Reasoned about assignment using mental models
+        instead of JavaScript syntax.
+
+      - Distinguished between computation and storage.
+
+    mentorFeedback: >
+      Outstanding improvement in first-principles
+      reasoning. Student now consistently thinks about
+      programming from the computer's perspective before
+      considering language syntax.
+
+    nextMission:
+      id: PF-M2-MSN1
+
+      title: Variables — Giving Memory a Name
+
+statistics:
+  totalEntries: 2
+
+  completedMissionsLogged: 2

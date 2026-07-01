@@ -37,14 +37,14 @@ player:
     title: "The Beginner"
 
   overall:
-    level: 0
+    level: 1
 
     experience:
-      current: 25
+      current: 110
 
-      requiredForNextLevel: 100
+      requiredForNextLevel: 200
 
-      totalEarned: 25
+      totalEarned: 110
 
   academy:
     current:
@@ -54,15 +54,15 @@ player:
 
   module:
     current:
-      id: PF-M1
+      id: PF-M2
 
-      name: "The Nature of Programming"
+      name: "Variables and Memory"
 
   mission:
     current:
-      id: PF-M1-MSN2
+      id: PF-M2-MSN1
 
-      name: "Memory: How Computers Remember Things"
+      name: "Variables — Giving Memory a Name"
 
 progress:
   academiesCompleted: []
@@ -71,12 +71,17 @@ progress:
 
   missionsCompleted:
     - PF-M1-MSN1
+    - PF-M1-MSN2
 
   conceptsDiscovered:
     - PF-M1-S1-C1
     - PF-M1-S1-C2
     - PF-M1-S1-C3
     - PF-M1-S1-C4
+    - PF-M2-S1-C1
+    - PF-M2-S1-C2
+    - PF-M2-S1-C3
+    - PF-M2-S1-C4
 
   conceptsUnderstood: []
 
@@ -93,10 +98,10 @@ reviews:
 
 quests:
   active:
-    - PF-M1-MSN2
+    - PF-M2-MSN1
 
   completed:
-    - PF-M1-MSN1
+    - PF-M1-MSN2
 
   failed: []
 
@@ -114,13 +119,13 @@ achievements:
   unlocked: []
 
 statistics:
-  totalSessions: 1
+  totalSessions: 2
 
-  totalStudyHours: 1
+  totalStudyHours: 2
 
-  totalLessonsCompleted: 1
+  totalLessonsCompleted: 2
 
-  totalMissionsCompleted: 1
+  totalMissionsCompleted: 2
 
   totalReviewsCompleted: 0
 
@@ -128,7 +133,7 @@ statistics:
 
   totalProjectsCompleted: 0
 
-  totalConceptsDiscovered: 4
+  totalConceptsDiscovered: 8
 
   totalConceptsMastered: 0
 
@@ -182,12 +187,22 @@ mentorAssessment:
 
     - Existing frontend experience acknowledged but intentionally restarting from first principles.
 
+    - Demonstrated significant improvement in first-principles reasoning.
+
+    - Correctly derived variables without relying on syntax.
+
+    - Beginning to think in systems instead of frameworks.
+
 mentalModelsUnlocked:
   - MM-001
   - MM-002
   - MM-003
   - MM-004
   - MM-005
+  - MM-006
+  - MM-007
+  - MM-008
+  - MM-009
 
 inventory:
   certifications: []
