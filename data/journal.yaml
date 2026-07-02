@@ -28,145 +28,154 @@ metadata:
   lastUpdated: "2026-06-29"
 
 entries:
-  - session: S-0001
+- session: S-0001
 
-    academy: Programming Foundations
+  academy: Programming Foundations
 
-    module: PF-M1
+  module: PF-M1
 
-    mission: PF-M1-MSN1
+  mission: PF-M1-MSN1
 
-    title: What is Programming?
+  title: What is Programming?
 
-    completed: true
+  completed: true
 
-    summary: >
-      Learned why programming exists before studying syntax.
-      Discovered that programming is fundamentally about
-      expressing solutions rather than writing code.
+  summary: >
+    Learned why programming exists before studying syntax.
+    Discovered that programming is fundamentally about
+    expressing solutions rather than writing code.
 
-    biggestRealization: >
-      Programming languages were invented for humans,
-      not computers.
+  biggestRealization: >
+    Programming languages were invented for humans,
+    not computers.
 
-    mentalModelsLearned:
-      - MM-001
-      - MM-002
-      - MM-003
-      - MM-004
-      - MM-005
+  mentalModelsLearned:
+  - MM-001
+  - MM-002
+  - MM-003
+  - MM-004
+  - MM-005
 
-    conceptsLearned:
-      - Programming
+  conceptsLearned:
+  - Programming
 
-      - Programming Languages
+  - Programming Languages
 
-      - Abstraction
+  - Abstraction
 
-      - Engineering Trade-offs
+  - Engineering Trade-offs
 
-    misconceptionsCorrected:
-      - Programming languages primarily communicate with machines.
+  misconceptionsCorrected:
+  - Programming languages primarily communicate with machines.
 
-    questionsAsked:
-      - Why does programming exist?
+  questionsAsked:
+  - Why does programming exist?
 
-      - Why do programming languages exist?
+  - Why do programming languages exist?
 
-      - Why are there many programming languages?
+  - Why are there many programming languages?
 
-    evidenceOfUnderstanding:
-      - Independently derived the idea of translators.
+  evidenceOfUnderstanding:
+  - Independently derived the idea of translators.
 
-      - Independently derived reusable commands (functions).
+  - Independently derived reusable commands (functions).
 
-      - Recognized abstraction without being taught.
+  - Recognized abstraction without being taught.
 
-      - Explained why multiple programming languages exist.
+  - Explained why multiple programming languages exist.
 
-    mentorFeedback: >
-      Excellent reasoning.
-      Strong curiosity.
-      Learns best through guided discovery rather than
-      memorization.
+  mentorFeedback: >
+    Excellent reasoning.
+    Strong curiosity.
+    Learns best through guided discovery rather than
+    memorization.
 
-    nextMission:
-      id: PF-M1-MSN2
-
-      title: Memory — How Computers Remember Things
-
-  - session: S-0002
-
-    academy: Programming Foundations
-
-    module: PF-M2
-
-    mission: PF-M1-MSN2
+  nextMission:
+    id: PF-M1-MSN2
 
     title: Memory — How Computers Remember Things
 
-    completed: true
+- session: S-0002
 
-    summary: >
-      Discovered why computers require memory to retain
-      information after computation. Derived the purpose
-      of variables as human-friendly names for values
-      stored in memory and understood assignment as
-      changing what a variable refers to.
+  academy: Programming Foundations
 
-    biggestRealization: >
-      The CPU computes while memory stores. Variables
-      exist because humans need meaningful names for
-      memory locations rather than raw addresses.
+  module: PF-M2
 
-    mentalModelsLearned:
-      - MM-006
-      - MM-007
-      - MM-008
-      - MM-009
+  mission: PF-M1-MSN2
 
-    conceptsLearned:
-      - Memory
-      - Variables
-      - Assignment
-      - CPU vs Memory
+  title: Memory — How Computers Remember Things
 
-    misconceptionsCorrected:
-      - Thinking the CPU remembers previous calculations.
+  completed: true
 
-    questionsAsked:
-      - Where does a computed value go?
+  summary: >
+    Discovered why computers require memory to retain
+    information after computation. Derived the purpose
+    of variables as human-friendly names for values
+    stored in memory and understood assignment as
+    changing what a variable refers to.
 
-      - Why do variables exist?
+  biggestRealization: >
+    The CPU computes while memory stores. Variables
+    exist because humans need meaningful names for
+    memory locations rather than raw addresses.
 
-      - Why not use memory addresses directly?
+  mentalModelsLearned:
+  - MM-006
+  - MM-007
+  - MM-008
+  - MM-009
 
-      - What happens during assignment?
+  conceptsLearned:
+  - Memory
+  - Variables
+  - Assignment
+  - CPU vs Memory
 
-    evidenceOfUnderstanding:
-      - Correctly identified memory as the storage
-        component.
+  misconceptionsCorrected:
+  - Thinking the CPU remembers previous calculations.
 
-      - Independently derived the need for variable
-        names.
+  questionsAsked:
+  - Where does a computed value go?
 
-      - Reasoned about assignment using mental models
-        instead of JavaScript syntax.
+  - Why do variables exist?
 
-      - Distinguished between computation and storage.
+  - Why not use memory addresses directly?
 
-    mentorFeedback: >
-      Outstanding improvement in first-principles
-      reasoning. Student now consistently thinks about
-      programming from the computer's perspective before
-      considering language syntax.
+  - What happens during assignment?
 
-    nextMission:
-      id: PF-M2-MSN1
+  evidenceOfUnderstanding:
+  - Correctly identified memory as the storage component.
 
-      title: Variables — Giving Memory a Name
+  - Independently derived the need for variable names.
 
+  - Reasoned about assignment using mental models instead of JavaScript syntax.
+
+  - Distinguished between computation and storage.
+
+  mentorFeedback: >
+    Outstanding improvement in first-principles
+    reasoning. Student now consistently thinks about
+    programming from the computer's perspective before
+    considering language syntax.
+
+  nextMission:
+    id: PF-M2-MSN1
+
+    title: Variables — Giving Memory a Name
+
+- session: S-0003
+  academy: "Programming Foundations"
+  module: PF-M2
+  mission: PF-M2-MSN1
+  title: "Variables — Giving Memory a Name"
+  completed: true
+  summary: "Discovered the distinction between values and memory locations. Derived why variables exist, why copying and sharing solve different problems, and why ownership is the underlying abstraction behind references, immutability and shared state."
+  biggestRealization: "Every piece of data has an owner."
+  mentalModelsLearned: [MM-010, MM-011, MM-012, MM-013, MM-014]
+  conceptsLearned: ["Value vs Memory Location", "Copy vs Share", "Ownership", "Mutability", "Copy-on-Write", "Single Source of Truth"]
+  mentorFeedback: "Excellent systems reasoning. Student consistently evaluated trade-offs before implementation."
+  nextMission: {id: PF-M2-MSN2, title: "Primitive Values vs Reference Values"}
 statistics:
-  totalEntries: 2
+  totalEntries: 3
 
-  completedMissionsLogged: 2
+  completedMissionsLogged: 3

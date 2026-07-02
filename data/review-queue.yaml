@@ -21,70 +21,76 @@ today: []
 tomorrow: []
 
 thisWeek:
-  - conceptId: PF-M1-S1-C1
+- conceptId: PF-M1-S1-C1
 
-    concept: Programming
+  concept: Programming
 
-    priority: High
+  priority: High
 
-    reason: Recently Learned
+  reason: Recently Learned
 
-  - conceptId: PF-M1-S1-C2
+- conceptId: PF-M1-S1-C2
 
-    concept: Programming Languages
+  concept: Programming Languages
 
-    priority: High
+  priority: High
 
-    reason: Recently Learned
+  reason: Recently Learned
 
-  - conceptId: PF-M1-S1-C3
+- conceptId: PF-M1-S1-C3
 
-    concept: Abstraction
+  concept: Abstraction
 
-    priority: Medium
+  priority: Medium
 
-    reason: Mental Model Reinforcement
+  reason: Mental Model Reinforcement
 
-  - conceptId: PF-M1-S1-C4
+- conceptId: PF-M1-S1-C4
 
-    concept: Engineering Trade-offs
+  concept: Engineering Trade-offs
 
-    priority: Medium
+  priority: Medium
 
-    reason: Mental Model Reinforcement
+  reason: Mental Model Reinforcement
 
-  - conceptId: PF-M2-S1-C1
+- conceptId: PF-M2-S1-C1
 
-    concept: Memory
+  concept: Memory
 
-    priority: High
+  priority: High
 
-    reason: Recently Learned
+  reason: Recently Learned
 
-  - conceptId: PF-M2-S1-C2
+- conceptId: PF-M2-S1-C2
 
-    concept: Variables
+  concept: Variables
 
-    priority: High
+  priority: High
 
-    reason: Recently Learned
+  reason: Recently Learned
 
-  - conceptId: PF-M2-S1-C3
+- conceptId: PF-M2-S1-C3
 
-    concept: Assignment
+  concept: Assignment
 
-    priority: Medium
+  priority: Medium
 
-    reason: Reinforcement
+  reason: Reinforcement
 
-  - conceptId: PF-M2-S1-C4
+- conceptId: PF-M2-S1-C4
 
-    concept: CPU vs Memory
+  concept: CPU vs Memory
 
-    priority: Medium
+  priority: Medium
 
-    reason: Mental Model Reinforcement
+  reason: Mental Model Reinforcement
 
+- {conceptId: PF-M2-S1-C5, concept: "Value vs Memory Location", priority: High, reason: "Recently Learned"}
+- {conceptId: PF-M2-S1-C6, concept: "Copy vs Share", priority: High, reason: "Recently Learned"}
+- {conceptId: PF-M2-S1-C7, concept: Ownership, priority: High, reason: "Recently Learned"}
+- {conceptId: PF-M2-S1-C8, concept: "Mutable vs Immutable", priority: High, reason: "Recently Learned"}
+- {conceptId: PF-M2-S1-C10, concept: "Copy-on-Write", priority: High, reason: "Recently Learned"}
+- {conceptId: PF-M2-S1-C9, concept: "Single Source of Truth", priority: High, reason: "Recently Learned"}
 nextWeek: []
 
 overdue: []
@@ -107,6 +113,6 @@ reviewRules:
 statistics:
   reviewsCompleted: 0
 
-  conceptsScheduled: 4
+  conceptsScheduled: 14
 
   conceptsMastered: 0

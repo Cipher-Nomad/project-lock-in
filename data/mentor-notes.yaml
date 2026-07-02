@@ -43,26 +43,26 @@ overallAssessment:
     system instead of a programming language.
 
   currentPriority:
-    - Programming Foundations
+  - Programming Foundations
 
-    - Mental Models
+  - Mental Models
 
-    - Conceptual Understanding
+  - Conceptual Understanding
 
 learningStyle:
   primary:
-    - First Principles
+  - First Principles
 
-    - Socratic Questioning
+  - Socratic Questioning
 
-    - Visual Mental Models
+  - Visual Mental Models
 
-    - Learning by Derivation
+  - Learning by Derivation
 
   secondary:
-    - Building Projects
+  - Building Projects
 
-    - Real-world Analogies
+  - Real-world Analogies
 
 strengths:
   curiosity:
@@ -73,7 +73,7 @@ strengths:
       definitions.
 
   reasoning:
-    level: High
+    level: "Very High"
 
     notes: >
       Often derives concepts independently once the
@@ -122,71 +122,66 @@ weaknesses:
 
 recurringPatterns:
   positive:
-    - Derives abstractions naturally.
+  - Derives abstractions naturally.
 
-    - Enjoys solving the underlying problem.
+  - Enjoys solving the underlying problem.
 
-    - Learns quickly after building a mental model.
+  - Learns quickly after building a mental model.
 
-    - Builds better mental models when discovering ideas instead of receiving definitions.
+  - Builds better mental models when discovering ideas instead of receiving definitions.
 
-    - Naturally reasons from the computer's perspective when encouraged.
+  - Naturally reasons from the computer's perspective when encouraged.
 
   negative:
-    - Initially thinks in framework terms instead of
-      computer science concepts.
+  - Initially thinks in framework terms instead of computer science concepts.
 
-    - Occasionally focuses on implementation before
-      principles.
+  - Occasionally focuses on implementation before principles.
 
 mentorStrategy:
   teachingMethod:
-    - Never start with syntax.
+  - Never start with syntax.
 
-    - Begin with the problem.
+  - Begin with the problem.
 
-    - Allow independent discovery.
+  - Allow independent discovery.
 
-    - Introduce terminology only after understanding.
+  - Introduce terminology only after understanding.
 
-    - Connect every new concept to previous ones.
+  - Connect every new concept to previous ones.
 
-    - Continue asking "If you were inventing programming..."
-      style questions.
+  - Continue asking "If you were inventing programming..." style questions.
 
-    - Delay terminology until after the student derives
-      the underlying concept.
+  - Delay terminology until after the student derives the underlying concept.
 
 currentRecommendations:
-  - Strengthen Programming Foundations.
+- Strengthen Programming Foundations.
 
-  - Build durable mental models.
+- Build durable mental models.
 
-  - Focus on understanding over memorization.
+- Focus on understanding over memorization.
 
-  - Continue strengthening systems thinking.
+- Continue strengthening systems thinking.
 
-  - Reinforce memory and variable mental models through
-    retrieval practice.
+- Reinforce memory and variable mental models through retrieval practice.
 
-  - Encourage reasoning before recalling syntax.
+- Encourage reasoning before recalling syntax.
 
 notes:
-  - Project Lock In officially started from scratch.
+- Project Lock In officially started from scratch.
 
-  - Previous frontend experience acknowledged but not
-    used for progression.
+- Previous frontend experience acknowledged but not used for progression.
 
-  - Student shows strong long-term potential.
+- Student shows strong long-term potential.
 
-  - Session S-0002 marked a noticeable improvement in
-    engineering reasoning.
+- Session S-0002 marked a noticeable improvement in engineering reasoning.
 
-  - Student correctly distinguished CPU responsibility
-    from memory responsibility.
+- Student correctly distinguished CPU responsibility from memory responsibility.
 
-  - Student independently invented the idea of naming
-    memory locations before variables were introduced.
+- Student independently invented the idea of naming memory locations before variables were introduced.
 
-  - Current teaching approach is proving highly effective
-    and should remain the default.
+- Current teaching approach is proving highly effective and should remain the default.
+- "Session S-0003 demonstrated the strongest reasoning so far."
+- "Student naturally evaluates multiple valid designs instead of searching for a single correct answer."
+- "Ownership has become a recurring abstraction in the student's thinking."
+- "Student independently connected Copy-on-Write with Git branching."
+- "Continue teaching from first principles."

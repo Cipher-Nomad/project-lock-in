@@ -37,14 +37,14 @@ player:
     title: "The Beginner"
 
   overall:
-    level: 1
+    level: 2
 
     experience:
-      current: 110
+      current: 230
 
-      requiredForNextLevel: 200
+      requiredForNextLevel: 350
 
-      totalEarned: 110
+      totalEarned: 230
 
   academy:
     current:
@@ -60,9 +60,9 @@ player:
 
   mission:
     current:
-      id: PF-M2-MSN1
+      id: PF-M2-MSN2
 
-      name: "Variables — Giving Memory a Name"
+      name: "Primitive Values vs Reference Values"
 
 progress:
   academiesCompleted: []
@@ -70,19 +70,26 @@ progress:
   modulesCompleted: []
 
   missionsCompleted:
-    - PF-M1-MSN1
-    - PF-M1-MSN2
+  - PF-M1-MSN1
+  - PF-M1-MSN2
 
+  - PF-M2-MSN1
   conceptsDiscovered:
-    - PF-M1-S1-C1
-    - PF-M1-S1-C2
-    - PF-M1-S1-C3
-    - PF-M1-S1-C4
-    - PF-M2-S1-C1
-    - PF-M2-S1-C2
-    - PF-M2-S1-C3
-    - PF-M2-S1-C4
+  - PF-M1-S1-C1
+  - PF-M1-S1-C2
+  - PF-M1-S1-C3
+  - PF-M1-S1-C4
+  - PF-M2-S1-C1
+  - PF-M2-S1-C2
+  - PF-M2-S1-C3
+  - PF-M2-S1-C4
 
+  - PF-M2-S1-C5
+  - PF-M2-S1-C6
+  - PF-M2-S1-C7
+  - PF-M2-S1-C8
+  - PF-M2-S1-C9
+  - PF-M2-S1-C10
   conceptsUnderstood: []
 
   conceptsApplied: []
@@ -98,15 +105,15 @@ reviews:
 
 quests:
   active:
-    - PF-M2-MSN1
-
+  - PF-M2-MSN2
   completed:
-    - PF-M1-MSN2
+  - PF-M1-MSN2
 
+  - PF-M2-MSN1
   failed: []
 
 bossBattles:
-  active: null
+  active:
 
   completed: []
 
@@ -119,13 +126,13 @@ achievements:
   unlocked: []
 
 statistics:
-  totalSessions: 2
+  totalSessions: 3
 
-  totalStudyHours: 2
+  totalStudyHours: 3
 
-  totalLessonsCompleted: 2
+  totalLessonsCompleted: 3
 
-  totalMissionsCompleted: 2
+  totalMissionsCompleted: 3
 
   totalReviewsCompleted: 0
 
@@ -133,38 +140,38 @@ statistics:
 
   totalProjectsCompleted: 0
 
-  totalConceptsDiscovered: 8
+  totalConceptsDiscovered: 14
 
   totalConceptsMastered: 0
 
 streak:
-  current: 1
+  current: 3
 
-  longest: 1
+  longest: 3
 
 learningProfile:
   preferredLearningStyle:
-    - First Principles
+  - First Principles
 
-    - Socratic Questioning
+  - Socratic Questioning
 
-    - Building Projects
+  - Building Projects
 
-    - Visual Mental Models
+  - Visual Mental Models
 
   strengths:
-    - Curious
+  - Curious
 
-    - Learns by reasoning
+  - Learns by reasoning
 
-    - Comfortable admitting uncertainty
+  - Comfortable admitting uncertainty
 
   weaknesses:
-    - Weak recall of fundamentals
+  - Weak recall of fundamentals
 
-    - Gaps in mental models
+  - Gaps in mental models
 
-    - Tends to implement before fully understanding
+  - Tends to implement before fully understanding
 
 mentorAssessment:
   overall:
@@ -177,33 +184,38 @@ mentorAssessment:
     application: 6
 
   observations:
-    - Strong curiosity.
+  - Strong curiosity.
 
-    - Enjoys understanding "why" before "how".
+  - Enjoys understanding "why" before "how".
 
-    - Naturally derives abstractions when guided.
+  - Naturally derives abstractions when guided.
 
-    - Needs stronger foundational mental models.
+  - Needs stronger foundational mental models.
 
-    - Existing frontend experience acknowledged but intentionally restarting from first principles.
+  - Existing frontend experience acknowledged but intentionally restarting from first principles.
 
-    - Demonstrated significant improvement in first-principles reasoning.
+  - Demonstrated significant improvement in first-principles reasoning.
 
-    - Correctly derived variables without relying on syntax.
+  - Correctly derived variables without relying on syntax.
 
-    - Beginning to think in systems instead of frameworks.
+  - Beginning to think in systems instead of frameworks.
 
 mentalModelsUnlocked:
-  - MM-001
-  - MM-002
-  - MM-003
-  - MM-004
-  - MM-005
-  - MM-006
-  - MM-007
-  - MM-008
-  - MM-009
+- MM-001
+- MM-002
+- MM-003
+- MM-004
+- MM-005
+- MM-006
+- MM-007
+- MM-008
+- MM-009
 
+- MM-010
+- MM-011
+- MM-012
+- MM-013
+- MM-014
 inventory:
   certifications: []
 
@@ -222,7 +234,7 @@ future:
 
     name: "Programming Foundations"
 
-notes: |
+notes: |2
 
   This save marks the official beginning of Project Lock In.
 

@@ -1,0 +1,153 @@
+patch:
+  player.yaml:
+    set:
+      player.overall.level: 2
+      player.overall.experience.current: 230
+      player.overall.experience.requiredForNextLevel: 350
+      player.overall.experience.totalEarned: 230
+      player.mission.current.id: PF-M2-MSN2
+      player.mission.current.name: "Primitive Values vs Reference Values"
+      statistics.totalSessions: 3
+      statistics.totalStudyHours: 3
+      statistics.totalLessonsCompleted: 3
+      statistics.totalMissionsCompleted: 3
+      statistics.totalConceptsDiscovered: 14
+      streak.current: 3
+      streak.longest: 3
+    append:
+      progress.missionsCompleted: [PF-M2-MSN1]
+      progress.conceptsDiscovered:
+        [
+          PF-M2-S1-C5,
+          PF-M2-S1-C6,
+          PF-M2-S1-C7,
+          PF-M2-S1-C8,
+          PF-M2-S1-C9,
+          PF-M2-S1-C10,
+        ]
+      mentalModelsUnlocked: [MM-010, MM-011, MM-012, MM-013, MM-014]
+      quests.completed: [PF-M2-MSN1]
+      quests.active: [PF-M2-MSN2]
+    remove:
+      quests.active: [PF-M2-MSN1]
+
+  quests.yaml:
+    set:
+      active.mission.id: PF-M2-MSN2
+      active.mission.title: "Primitive Values vs Reference Values"
+      active.mission.objective: null
+      active.mission.started: S-0004
+      history.totalCompleted: 3
+    append:
+      completed:
+        - id: PF-M2-MSN1
+          title: "Variables — Giving Memory a Name"
+          completedIn: S-0003
+          rewards:
+            exp: 120
+            concepts:
+              [
+                PF-M2-S1-C5,
+                PF-M2-S1-C6,
+                PF-M2-S1-C7,
+                PF-M2-S1-C8,
+                PF-M2-S1-C9,
+                PF-M2-S1-C10,
+              ]
+
+  review-queue.yaml:
+    set:
+      statistics.conceptsScheduled: 14
+    append:
+      thisWeek:
+        - {
+            conceptId: PF-M2-S1-C5,
+            concept: "Value vs Memory Location",
+            priority: High,
+            reason: "Recently Learned",
+          }
+        - {
+            conceptId: PF-M2-S1-C6,
+            concept: "Copy vs Share",
+            priority: High,
+            reason: "Recently Learned",
+          }
+        - {
+            conceptId: PF-M2-S1-C7,
+            concept: Ownership,
+            priority: High,
+            reason: "Recently Learned",
+          }
+        - {
+            conceptId: PF-M2-S1-C8,
+            concept: "Mutable vs Immutable",
+            priority: High,
+            reason: "Recently Learned",
+          }
+        - {
+            conceptId: PF-M2-S1-C10,
+            concept: "Copy-on-Write",
+            priority: High,
+            reason: "Recently Learned",
+          }
+        - {
+            conceptId: PF-M2-S1-C9,
+            concept: "Single Source of Truth",
+            priority: High,
+            reason: "Recently Learned",
+          }
+
+  journal.yaml:
+    set:
+      statistics.totalEntries: 3
+      statistics.completedMissionsLogged: 3
+    append:
+      entries:
+        - session: S-0003
+          academy: "Programming Foundations"
+          module: PF-M2
+          mission: PF-M2-MSN1
+          title: "Variables — Giving Memory a Name"
+          completed: true
+          summary: "Discovered the distinction between values and memory locations. Derived why variables exist, why copying and sharing solve different problems, and why ownership is the underlying abstraction behind references, immutability and shared state."
+          biggestRealization: "Every piece of data has an owner."
+          mentalModelsLearned: [MM-010, MM-011, MM-012, MM-013, MM-014]
+          conceptsLearned:
+            [
+              "Value vs Memory Location",
+              "Copy vs Share",
+              "Ownership",
+              "Mutability",
+              "Copy-on-Write",
+              "Single Source of Truth",
+            ]
+          mentorFeedback: "Excellent systems reasoning. Student consistently evaluated trade-offs before implementation."
+          nextMission:
+            { id: PF-M2-MSN2, title: "Primitive Values vs Reference Values" }
+
+  mentor-notes.yaml:
+    set:
+      strengths.reasoning.level: "Very High"
+    append:
+      notes:
+        - "Session S-0003 demonstrated the strongest reasoning so far."
+        - "Student naturally evaluates multiple valid designs instead of searching for a single correct answer."
+        - "Ownership has become a recurring abstraction in the student's thinking."
+        - "Student independently connected Copy-on-Write with Git branching."
+        - "Continue teaching from first principles."
+
+  stats.yaml:
+    set:
+      sessions.total: 3
+      time.estimatedStudyHours: 3
+      experience.overall.total: 230
+      experience.academies.Programming Foundations: 230
+      missions.completed: 3
+      concepts.discovered: 14
+      mentalModels.unlocked: 14
+      reviews.scheduled: 14
+      streak.current: 3
+      streak.longest: 3
+    append:
+      sessions.completed: [S-0003]
+      milestones: ["Reached Level 2", "Completed Variables and Memory Module 1"]

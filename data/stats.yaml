@@ -26,24 +26,25 @@ metadata:
   lastUpdated: "2026-06-29"
 
 sessions:
-  total: 2
+  total: 3
 
   completed:
-    - S-0001
-    - S-0002
+  - S-0001
+  - S-0002
 
+  - S-0003
 time:
-  estimatedStudyHours: 2
+  estimatedStudyHours: 3
 
 experience:
   overall:
-    total: 110
+    total: 230
 
   academies:
-    Programming Foundations: 110
+    Programming Foundations: 230
 
 missions:
-  completed: 2
+  completed: 3
 
   failed: 0
 
@@ -53,7 +54,7 @@ bossBattles:
   failed: 0
 
 concepts:
-  discovered: 8
+  discovered: 14
 
   learning: 8
 
@@ -66,10 +67,10 @@ concepts:
   mastered: 0
 
 mentalModels:
-  unlocked: 9
+  unlocked: 14
 
 reviews:
-  scheduled: 8
+  scheduled: 14
 
   completed: 0
 
@@ -85,27 +86,29 @@ achievements:
   unlocked: 0
 
 streak:
-  current: 2
+  current: 3
 
-  longest: 2
+  longest: 3
 
 analytics:
   strongestArea:
-    - Reasoning
+  - Reasoning
 
   weakestArea:
-    - Knowledge Recall
+  - Knowledge Recall
 
   currentFocus:
-    - Programming Foundations
+  - Programming Foundations
 
 milestones:
-  - Started Project Lock In
+- Started Project Lock In
 
-  - Completed first mission
+- Completed first mission
 
-  - Earned first EXP
+- Earned first EXP
 
-  - Reached Level 1
+- Reached Level 1
 
-  - Completed second mission
+- Completed second mission
+- "Reached Level 2"
+- "Completed Variables and Memory Module 1"

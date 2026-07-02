@@ -37,59 +37,68 @@ active:
     name: Variables and Memory
 
   mission:
-    id: PF-M2-MSN1
+    id: PF-M2-MSN2
 
-    title: Variables — Giving Memory a Name
+    title: "Primitive Values vs Reference Values"
 
-    objective: >
-    Discover why variables exist and how they allow
-    humans to refer to values stored in memory.
-
-    started: S-0003
+    objective:
+    started: S-0004
 
 sideQuests: []
 
 dailyQuests: []
 
 completed:
-  - id: PF-M1-MSN1
+- id: PF-M1-MSN1
 
-    title: What is Programming?
+  title: What is Programming?
 
-    completedIn: Session-1
+  completedIn: Session-1
 
-    rewards:
-      exp: 25
+  rewards:
+    exp: 25
 
-      concepts:
-        - PF-M1-S1-C1
-        - PF-M1-S1-C2
-        - PF-M1-S1-C3
-        - PF-M1-S1-C4
+    concepts:
+    - PF-M1-S1-C1
+    - PF-M1-S1-C2
+    - PF-M1-S1-C3
+    - PF-M1-S1-C4
 
-  - id: PF-M1-MSN2
+- id: PF-M1-MSN2
 
-    title: Memory — How Computers Remember Things
+  title: Memory — How Computers Remember Things
 
-    completedIn: S-0002
+  completedIn: S-0002
 
-    rewards:
-      exp: 85
+  rewards:
+    exp: 85
 
-      concepts:
-        - PF-M2-S1-C1
-        - PF-M2-S1-C2
-        - PF-M2-S1-C3
-        - PF-M2-S1-C4
+    concepts:
+    - PF-M2-S1-C1
+    - PF-M2-S1-C2
+    - PF-M2-S1-C3
+    - PF-M2-S1-C4
+- id: PF-M2-MSN1
+  title: "Variables — Giving Memory a Name"
+  completedIn: S-0003
+  rewards:
+    exp: 120
+    concepts: [PF-M2-S1-C5, PF-M2-S1-C6, PF-M2-S1-C7, PF-M2-S1-C8, PF-M2-S1-C9, PF-M2-S1-C10]
+- id: PF-M2-MSN1
+  title: "Variables — Giving Memory a Name"
+  completedIn: S-0003
+  rewards:
+    exp: 120
+    concepts: [PF-M2-S1-C5, PF-M2-S1-C6, PF-M2-S1-C7, PF-M2-S1-C8, PF-M2-S1-C9, PF-M2-S1-C10]
 failed: []
 
 bossBattles:
-  active: null
+  active:
 
   completed: []
 
 history:
-  totalCompleted: 2
+  totalCompleted: 3
 
   totalFailed: 0
 
